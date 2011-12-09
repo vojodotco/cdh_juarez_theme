@@ -17,7 +17,7 @@ li a.active {
  * Navigation bar
  */
 #navigation {
-    background-image: url('/theme/juarez-luchador/img/square-peach-80.png');
+	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
 }
 
 .region-navigation {

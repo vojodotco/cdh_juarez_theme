@@ -23,8 +23,7 @@ body {
 }
 
 #header {
-	margin-top: 0px;
-	padding: 10px 15px 10px 15px;
+    padding-top: 1em;
 	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
 }
 
@@ -36,10 +35,14 @@ body {
 }
 
 #main {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #footer {
-    background-image: url('sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
+	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
+    padding-top: 2em;
+    padding-bottom: 10em;
 }
 
 #footer .section {

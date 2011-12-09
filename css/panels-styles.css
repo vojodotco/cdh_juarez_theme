@@ -3,4 +3,37 @@
  * Panels Styling
  */
 
+/** related to the Juarez group homepage **/
 
+#cdhj-home-recent {
+
+}
+
+h2.pane-title {
+  font-family: "Bernard MT Condensed", "Impact", serif;
+  color: #333333;
+  font-weight: normal;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+.cdhj-sidebar-panel {
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px; 
+    border-radius:8px;
+	margin-top: 1em;	
+    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-black-10.png');
+    /* border: 1px solid #9a1e4c; */
+}
+.cdhj-sidebar-panel ul {
+}
+.cdhj-sidebar-panel ul li {
+    margin-bottom: 0.25em;
+}
+.cdhj-sidebar-panel ul li a {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+/** related to the Juarez view blog entry page **/

@@ -115,7 +115,7 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
-<body class="cdh-juarez <?php print $classes; ?>">
+<body class="<?php print $classes; ?>">
 
     <div id="page-wrapper">
         
@@ -140,27 +140,35 @@
         
             <div id="main-wrapper">
                 
-                <div class="container">
-                    <?php if ($messages || $tabs) { ?>
-                    <div class="row">
-                        <div class="twelvecol last">
-                        <?php print $messages; ?>
-                        <div class="tabs"><?php print $tabs; ?></div>
+                <?php if ($messages || $tabs || $title || content_top) { ?>
+                    <div class="container">
+                        <?php if ($messages || $tabs) { ?>
+                            <div class="row">
+                                <div class="twelvecol last">
+                                    <h1 class="title"><?php print $title ?></h1>
+                                </div>
+                            </div>
+                        <?php } ?>
+    
+                        <?php if ($messages || $tabs) { ?>
+                            <div class="row">
+                                <div class="twelvecol last">
+                                <?php print $messages; ?>
+                                <div class="tabs"><?php print $tabs; ?></div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                        
+                        <div class="row">
+                            <div class="twelvecol last">
+                            <?php print $content_top ?>
+                            </div>
                         </div>
                     </div>
-                    <?php } ?>
-                    
-                    <div class="row">
-                        <div class="twelvecol last">
-                        <?php print $content_top ?>
-                        </div>
-                    </div>
-                </div>
+                <?php } ?>
             
                 <div id="main" class="container">
-                    <div class="row">
-                        <?php print $content ?>
-                    </div>
+                    <?php print $content ?>
                 </div>
             
                 <div class="container">
@@ -173,7 +181,7 @@
 
             </div>
         
-            <div class="container">
+            <div id="footer" class="container">
                 <div class="row">
                     <div class="twelvecol last">
                     <?php print $footer ?>

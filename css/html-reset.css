@@ -155,7 +155,7 @@ ol {
 
 .block ul,
 .item-list ul /* Drupal overrides */ {
-  margin: 1em 0;
+  margin: 0.5em 0;
   padding: 0 0 0 2em; /* LTR */
 }
 
@@ -212,13 +212,16 @@ dd {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+    color: #951b49;
 }
 
 a:visited {
+    color: #671432;
 }
 
 a:hover,
 a:focus {
+    color: #951b49;
 }
 
 a:active {
