@@ -129,6 +129,7 @@ h3.title /* Comment title */ {
   margin: 0;
 }
 
+h2,
 h1.title {
   font-family: "Bernard MT Condensed", "Impact", serif;
   font-weight: normal;

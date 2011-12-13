@@ -141,7 +141,7 @@
                 
                 <?php if ($messages || $tabs || $title || content_top) { ?>
                     <div class="container">
-                        <?php if ($messages || $tabs) { ?>
+                        <?php if ($title) { ?>
                             <div class="row">
                                 <div class="twelvecol last">
                                     <h1 class="title"><?php print $title ?></h1>

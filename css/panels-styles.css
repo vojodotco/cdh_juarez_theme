@@ -37,3 +37,23 @@ h2.pane-title {
 }
 
 /** related to the Juarez view blog entry page **/
+
+.cdhj-story-author {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.cdhj-story-body {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.cdhj-story-created-date {
+    margin-bottom: 1em;
+}
+
+.cdhj-story-created-tags {
+    margin-bottom: 1em;
+}

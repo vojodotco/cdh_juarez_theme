@@ -24,6 +24,7 @@ body {
 
 #header {
     padding-top: 1em;
+    padding-bottom: 1em;
 	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
 }
 
@@ -35,8 +36,8 @@ body {
 }
 
 #main {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0em;
+    padding-bottom: 2em;
 }
 
 #footer {

@@ -3,4 +3,20 @@
  * Views Styling
  */
 
+.openlayers-views-map {
+    border: 1px solid #999999;
+}
 
+.view-content p {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.cdhj-story-list .views-field-title {
+    border-top: 1px solid #BBBBBB;
+}
+
+.cdhj-story-list {
+    border-bottom: 1px solid #BBBBBB;
+}

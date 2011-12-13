@@ -23,6 +23,12 @@ base theme = zen
   ; an /extremely/ useful feature. See the excellent Drupal 6 Theme Guide at
   ; http://drupal.org/node/263967 for more details.
 stylesheets[all][]   = css/html-reset.css
+
+; placed here to allow topic-css files to override css resets in 1140.css
+stylesheets[all][]   = css/1140-cssgrid/1140.css
+stylesheets[all][]   = css/1140-cssgrid/styles.css
+conditional-stylesheets[if IE][all][] = css/1140-cssgrid/ie.css
+
 stylesheets[all][]   = css/wireframes.css
 stylesheets[all][]   = css/page-backgrounds.css
 stylesheets[all][]   = css/tabs.css
@@ -37,12 +43,11 @@ stylesheets[all][]   = css/nodes.css
 stylesheets[all][]   = css/comments.css
 stylesheets[all][]   = css/forms.css
 stylesheets[all][]   = css/fields.css
+
 ;stylesheets[print][] = css/print.css
+
 stylesheets[all][]   = css/layout-liquid.css
 
-stylesheets[all][]   = css/1140-cssgrid/1140.css
-stylesheets[all][]   = css/1140-cssgrid/styles.css
-conditional-stylesheets[if IE][all][] = css/1140-cssgrid/ie.css
 scripts[] = js/1140-cssgrid/css3-mediaqueries.js
 
 ; stylesheets[handheld][] = css/mobile.css
