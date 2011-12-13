@@ -38,6 +38,37 @@ li a.active {
 .block-menu {
 }
 
+#block-menu-menu-cdhjuarez ul {
+    height: 2.75em;
+    margin-left: 0em;
+}
+
+#block-menu-menu-cdhjuarez ul li {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    width: 180px;    
+}
+
+#block-menu-menu-cdhjuarez ul li a {
+    border: #333333 0.138em solid;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-white-80.png');
+    text-align: right;
+    padding: 0.27em 0.27em 0.27em 0em; 
+    text-decoration: none;
+    font-size: 1.25em;
+	color: #333333;
+	display: block;
+	font-family: "Bernard MT Condensed", "Impact", serif;
+}
+
+#block-menu-menu-cdhjuarez ul li a:hover {
+	background-color: #ffffff;
+	color: #111111;
+}
+
 /*
  * "Menu block" blocks. See http://drupal.org/project/menu_block
  */

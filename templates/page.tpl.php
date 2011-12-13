@@ -128,16 +128,15 @@
                         <?php print $header ?>
                     </div>
                 </div>
-            </div>
-        
-            <div id="navigation" class="container">
-                <div class="row">
-                    <div class="twelvecol last">
-                    <?php print $navigation ?>
+                <?php if ($navigation) { ?>
+                    <div class="row">
+                        <div class="twelvecol last">
+                            <?php print $navigation ?>
+                        </div>
                     </div>
-                </div>
+                <?php } ?>
             </div>
-        
+                
             <div id="main-wrapper">
                 
                 <?php if ($messages || $tabs || $title || content_top) { ?>
@@ -153,15 +152,15 @@
                         <?php if ($messages || $tabs) { ?>
                             <div class="row">
                                 <div class="twelvecol last">
-                                <?php print $messages; ?>
-                                <div class="tabs"><?php print $tabs; ?></div>
+                                    <?php print $messages; ?>  
+                                    <div class="tabs"><?php print $tabs; ?></div>
                                 </div>
                             </div>
                         <?php } ?>
                         
                         <div class="row">
                             <div class="twelvecol last">
-                            <?php print $content_top ?>
+                                <?php print $content_top ?>
                             </div>
                         </div>
                     </div>
@@ -174,7 +173,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="twelvecol last">
-                        <?php print $content_bottom ?>
+                            <?php print $content_bottom ?>
                         </div>
                     </div>
                 </div>
@@ -183,11 +182,17 @@
         
             <div id="footer" class="container">
                 <div class="row">
-                    <div class="twelvecol last">
-                    <?php print $footer ?>
-                    <strong>Crónicas de Héroes</strong> &rarr; <a href="http://civic.mit.edu">Center for Future Civic Media</a>
-                    <br />
-                    info &#64; cronicasdeheroes.mx
+                    <div class="fourcol">
+                        <?php print $footer_left ?>
+                        <strong>Crónicas de Héroes</strong> &rarr; <a href="http://civic.mit.edu">Center for Future Civic Media</a>
+                        <br />
+                        info&#64;cronicasdeheroes.mx
+                    </div>
+                    <div class="fourcol">
+                        <?php print $footer_center ?>
+                    </div>
+                    <div class="fourcol last">
+                        <?php print $footer_right ?>
                     </div>
                 </div>
             </div>

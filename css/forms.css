@@ -65,7 +65,25 @@
 /*
  * Search (search-block-form.tpl.php)
  */
+ 
+#block-search-0 h2 {
+    display: none;
+}
+
 #search-block-form /* Wrapper for the search form */ {
+}
+
+#search-block-form {
+
+}
+
+#search-block-form input[type="text"] {
+    width: 65%;
+}
+
+#search-block-form input[type="submit"] {
+    margin-left: 3%;
+    width: 25%;
 }
 
 #edit-search-block-form-1-wrapper label /* Label that says "Search this site:" */ {
