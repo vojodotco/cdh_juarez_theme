@@ -48,3 +48,12 @@ body {
 
 #footer .section {
 }
+
+#footer .region-footer-right {
+    text-align: right;
+}
+
+#cdhj-content-bottom {
+    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-black-80.png');
+    padding: 2em 0em;
+}

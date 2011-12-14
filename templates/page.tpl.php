@@ -158,11 +158,11 @@
                             </div>
                         <?php } ?>
                         
-                        <div class="row">
-                            <div class="twelvecol last">
+                        <?php if($content_top) { ?>
+                            <div class="row" id="cdhj-content-top">
                                 <?php print $content_top ?>
                             </div>
-                        </div>
+                        <?php } ?>
                     </div>
                 <?php } ?>
             
@@ -170,11 +170,9 @@
                     <?php print $content ?>
                 </div>
             
-                <div class="container">
+                <div class="container" id="cdhj-content-bottom">
                     <div class="row">
-                        <div class="twelvecol last">
-                            <?php print $content_bottom ?>
-                        </div>
+                        <?php print $content_bottom ?>
                     </div>
                 </div>
 
