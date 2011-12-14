@@ -170,11 +170,13 @@
                     <?php print $content ?>
                 </div>
             
-                <div class="container" id="cdhj-content-bottom">
-                    <div class="row">
-                        <?php print $content_bottom ?>
+                <?php if ($content_bottom) { ?>
+                    <div class="container" id="cdhj-content-bottom">
+                        <div class="row">
+                            <?php print $content_bottom ?>
+                        </div>
                     </div>
-                </div>
+                <?php } ?>
 
             </div>
         

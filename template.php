@@ -19,11 +19,11 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to hr_juarez_.
+ *   entirety and paste it here, changing the prefix from theme_ to cdh_juarez_.
  *   For example:
  *
  *     original: theme_breadcrumb()
- *     theme override: hr_juarez_breadcrumb()
+ *     theme override: cdh_juarez_breadcrumb()
  *
  *   where STARTERKIT is the name of your sub-theme. For example, the
  *   zen_classic theme would define a zen_classic_breadcrumb() function.
@@ -64,12 +64,13 @@
 /**
  * Implementation of HOOK_theme().
  */
-function hr_juarez_theme(&$existing, $type, $theme, $path) {
+function cdh_juarez_theme(&$existing, $type, $theme, $path) {
   $hooks = zen_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
-  /*
-  $hooks['hook_name_here'] = array( // Details go here );
-  */
+  $hooks['blog_node_form'] = array( 
+        'arguments' => array('form' => NULL),
+        'template' => 'templates/node-blog-edit'
+  );
   // @TODO: Needs detailed comments. Patches welcome!
   return $hooks;
 }
@@ -83,7 +84,7 @@ function hr_juarez_theme(&$existing, $type, $theme, $path) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 /* -- Delete this line if you want to use this function
-function hr_juarez_preprocess(&$vars, $hook) {
+function cdh_juarez_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -97,7 +98,7 @@ function hr_juarez_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function hr_juarez_preprocess_page(&$vars, $hook) {
+function cdh_juarez_preprocess_page(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // To remove a class from $classes_array, use array_diff().
@@ -114,11 +115,11 @@ function hr_juarez_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function hr_juarez_preprocess_node(&$vars, $hook) {
+function cdh_juarez_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // hr_juarez_preprocess_node_page() or hr_juarez_preprocess_node_story().
+  // cdh_juarez_preprocess_node_page() or cdh_juarez_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $vars['node']->type;
   if (function_exists($function)) {
     $function($vars, $hook);
@@ -135,7 +136,7 @@ function hr_juarez_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function hr_juarez_preprocess_comment(&$vars, $hook) {
+function cdh_juarez_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -149,7 +150,7 @@ function hr_juarez_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function hr_juarez_preprocess_block(&$vars, $hook) {
+function cdh_juarez_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */

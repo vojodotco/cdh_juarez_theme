@@ -16,9 +16,13 @@
   border: 2px solid #c00;
 }
 
+.cdhj-submit-form #field-image-items > table th,
 .form-item label /* The label for a form element */ {
   display: block;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: "Bernard MT Condensed","Impact",serif;
+  font-size: 1.4em;
+  line-height: 1.6em;
 }
 
 .form-item label.option /* The label for a radio button or checkbox */ {
@@ -91,6 +95,22 @@
 }
 
 
+#search-block-form input[type="submit"] {
+    border: 0.12em solid #9A1E4C;
+    background: #EEBCCE;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEBCCE), to(#9A1E4C));
+    background: -moz-linear-gradient(center top , #EEBCCE, #9A1E4C) repeat scroll 0 0 #EEBCCE;
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 0.5em;
+    margin-top: 0em;
+    color: #ffffff;
+    padding: 0.25em 0.5em;
+    text-shadow: 0 1px 0 #000000;
+}
+
+
 /*
  * Drupal's default login form block
  */
@@ -149,4 +169,22 @@ form thead th {
 
 form tbody th {
   border-bottom: 1px solid #ccc;
+}
+
+/** Custom style rules for the special story submit page **/
+
+.cdhj-submit-form .teaser-button-wrapper, 
+.cdhj-submit-form .body-field-wrapper > p, 
+.cdhj-submit-form .body-field-wrapper .tips {
+    display: none;
+}
+
+.cdhj-submit-form #field-image-items label {
+    font-size: 1em;
+    display: inline;
+    font-family: auto;
+}
+
+.cdhj-submit-form #field_image_values {
+    width: 96%;
 }
