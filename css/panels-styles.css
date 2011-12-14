@@ -57,3 +57,27 @@ h2.pane-title {
 .cdhj-story-created-tags {
     margin-bottom: 1em;
 }
+
+#cdhj-content-bottom h2 {
+    color: #ffffff;
+    padding-left: 0em;
+}
+
+#cdhj-content-bottom ul {
+    margin: 0em;
+    padding: 0em;
+}
+
+#cdhj-content-bottom ul li {
+    margin-bottom: 0.5em;
+}
+
+#cdhj-content-bottom ul a {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#cdhj-content-bottom more-link {
+    display: none;
+}
