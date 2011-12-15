@@ -16,13 +16,20 @@
   border: 2px solid #c00;
 }
 
-.cdhj-submit-form #field-image-items > table th,
-.form-item label /* The label for a form element */ {
+#field-image-items th,
+.form-item > label /* The label for a form element */ {
   display: block;
   font-weight: normal;
   font-family: "Bernard MT Condensed","Impact",serif;
   font-size: 1.4em;
   line-height: 1.6em;
+}
+.form-item > label.option {
+  display: auto;
+  font-weight: auto;
+  font-family: auto;
+  font-size: 1.0em;
+  line-height: 1.2em;
 }
 
 .form-item label.option /* The label for a radio button or checkbox */ {
@@ -95,6 +102,7 @@
 }
 
 
+.cdhj-submit-form .cdhj-buttons input[type="submit"],
 #search-block-form input[type="submit"] {
     border: 0.12em solid #9A1E4C;
     background: #EEBCCE;
@@ -173,8 +181,11 @@ form tbody th {
 
 /** Custom style rules for the special story submit page **/
 
+.cdhj-submit-form div.attachments,
+.cdhj-submit-form fieldset.location,
 .cdhj-submit-form .teaser-button-wrapper, 
 .cdhj-submit-form .body-field-wrapper > p, 
+.cdhj-submit-form .cdhj-buttons .collapsible,
 .cdhj-submit-form .body-field-wrapper .tips {
     display: none;
 }
@@ -187,4 +198,29 @@ form tbody th {
 
 .cdhj-submit-form #field_image_values {
     width: 96%;
+}
+
+.cdhj-submit-form  .cdhj-buttons {
+    text-align: right;
+}
+
+ul.ui-autocomplete {
+	background: #ffffff;
+	list-style: none;
+	display: inline-block;
+	padding: 0em;
+	margin: 0em;
+	border: 1px solid #666666;
+}
+ul.ui-autocomplete li {
+    cursor:pointer;cursor:hand;
+	font-size: 1.0em;
+	font-style: italic;
+}
+ul.ui-autocomplete li a {
+    display: block;
+	padding: 0.3em;
+}
+ul.ui-autocomplete li a.ui-state-hover {
+	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
 }

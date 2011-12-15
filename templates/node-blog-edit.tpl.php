@@ -25,31 +25,50 @@ unset($form['buttons']['preview']);
 unset($form['buttons']['delete']);
 unset($form['buttons']['preview_changes']);
 */
-print_r(array_keys($form));
-?>
 
-<div class="cdhj-submit-form">
+//dsm($form['locations']);
 
-<?php
-print drupal_render($form['title']);
-?>
+drupal_set_html_head('<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>');
+jquery_ui_add(array("jquery.ui.core","jquery.ui.widget","jquery.ui.position","jquery.ui.autocomplete"));
+drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplete.js');
 
-<?php
-print drupal_render($form['body_field']);
 ?>
+<div class="row cdhj-submit-form">
 
-<?php
-dsm($form['locations']);
-print drupal_render($form['locations']);
-?>
 
-<?php
-print drupal_render($form['field_image']);
-?>
+    <div class="sixcol">
+    
+        <?php print drupal_render($form['title']); ?>
+        
+        <?php print drupal_render($form['body_field']); ?>
+        
+    </div>
+    
+    <div class="sixcol last">
+    
+        <div class="form-item">
+            <?php print drupal_render($form['field_image']); ?>
+        </div>
 
-<?php
-print drupal_render($form['taxonomy']);
-?>
+        <div class="form-item" id="edit-fake-location-wrapper">
+            <label for="edit-fake-location">Location:</label>
+            <input type="text" maxlength="128" name="fake-location" id="edit-fake-location" size="60" value="" class="form-text" />
+        </div>
+        <?php print drupal_render($form['locations']); ?>
+
+        <?php print drupal_render($form['language']); ?>
+    
+        <?php print drupal_render($form['taxonomy']); ?>
+    
+    </div>
+
+    <div class="row">
+        <div class="twelvecol last cdhj-buttons">
+        
+        <?php print drupal_render($form); ?>
+        
+        </div>
+    </div>
 
 </div>
 

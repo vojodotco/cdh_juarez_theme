@@ -8,10 +8,6 @@
  */
 ?>
 
-<div class="row">
-
-    <div class="sixcol">
-
 <?php
 module_load_include('inc', 'node', 'node.pages');  
 $node_type = 'blog';
@@ -27,10 +23,3 @@ $output = drupal_get_form($form_id, $new_node);
 print $output;
 
 ?>
-
-    </div>
-
-    <div class="sixcol last">
-    </div>
-    
-</div>
