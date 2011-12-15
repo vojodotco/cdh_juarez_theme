@@ -48,7 +48,7 @@ stylesheets[all][]   = css/fields.css
 
 stylesheets[all][]   = css/layout-liquid.css
 
-scripts[] = js/1140-cssgrid/css3-mediaqueries.js
+;scripts[] = js/1140-cssgrid/css3-mediaqueries.js
 
 ; stylesheets[handheld][] = css/mobile.css
 ; stylesheets[only screen and (max-device-width: 480px)][] = css/iphone.css
