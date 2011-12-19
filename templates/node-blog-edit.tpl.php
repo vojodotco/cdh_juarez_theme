@@ -1,33 +1,17 @@
 <?php
 /**
- * This is a bunch of custom form code to show a much prettier 
- * memory create form on the neighborhood page.
+ * This is a bunch of custom form code to show a much prettier story create form within the group
  * Extensive use of suggestions at:
  *   http://drupal.org/node/601646
  **/
 
-// if you're looking at a destination page then save it to a variable for use later
 //dsm($form);
-
-// remove field labels
-/*
-unset($form['field_memory_destination']['nid']['nid']['#title']);
-unset($form['taxonomy'][$vid]['#title']);
-unset($form['field_memory_audio'][0]['#title']);
-unset($form['field_memory_text'][0]['value']['#title']);
-unset($form['field_memory_photo'][0]['#title']);
-
-// make the textarea non-resizeable
-$form['field_memory_text']['#resizable'] = false;
 
 // remove some other buttons
 unset($form['buttons']['preview']);
-unset($form['buttons']['delete']);
-unset($form['buttons']['preview_changes']);
-*/
+unset($form['locations']);
 
-//dsm($form['locations']);
-
+// include the libraries for geocoding from the single address text input field
 drupal_set_html_head('<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>');
 jquery_ui_add(array("jquery.ui.core","jquery.ui.widget","jquery.ui.position","jquery.ui.autocomplete"));
 drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplete.js');
@@ -61,6 +45,8 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
         <?php print drupal_render($form['taxonomy']); ?>
     
     </div>
+
+    <input type="hidden" name="og_groups[10014]" id="edit-og-groups-10014" value="10014" class="form-checkbox og-audience">
 
     <div class="row">
         <div class="twelvecol last cdhj-buttons">
