@@ -198,8 +198,8 @@ form tbody th {
     width: 96%;
 }
 
-.cdhj-submit-form  .cdhj-buttons {
-    text-align: right;
+.cdhj-submit-form #edit-submit {
+    padding: 0.5em;
 }
 
 ul.ui-autocomplete {
