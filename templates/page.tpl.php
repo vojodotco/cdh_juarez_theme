@@ -124,8 +124,8 @@
             <div id="header" class="container">
                 <div class="row">
                     <div class="twelvecol last">
-                        <a href="http://juarez.cronicasdeheroes.mx/"><img src="/sites/all/themes/cdh_juarez/images/cdh/logo.png"></a>
                         <?php print $header ?>
+                        <a href="http://juarez.cronicasdeheroes.mx/"><img src="/sites/all/themes/cdh_juarez/images/cdh/logo.png"></a>
                     </div>
                 </div>
                 <?php if ($navigation) { ?>

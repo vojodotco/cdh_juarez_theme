@@ -94,3 +94,28 @@
 
 #block-user-3 /* "Who's online" block for a list of the online users */ {
 }
+
+
+/* Location switcher block */
+
+.block-locale {
+    float: right
+}
+
+.block-locale h2 {
+    display: none;
+}
+
+.block-locale ul {
+    list-style-type: none;
+}
+.block-locale ul li {
+    display: inline-block;
+    font-size: 1.0em;
+    margin: 0.25em;
+    padding: 0.5em;
+    -webkit-border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    border: #333 0.138em solid;
+    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-white-80.png');
+}
