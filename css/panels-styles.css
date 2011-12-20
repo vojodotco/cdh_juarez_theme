@@ -81,3 +81,23 @@ h2.pane-title {
 #cdhj-content-bottom .more-link {
     display: none;
 }
+
+#mini-panel-cdhj_story_count .pane-content {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: "Bernard MT Condensed","Impact",serif;
+    font-size: 1.6em;
+    margin: 0em;
+    padding: 0.7em;
+    text-align: center;
+    text-transform: uppercase;
+}
+    
+#mini-panel-cdhj_story_count .pane-content em {
+    background-image: url("/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png");
+    border-radius: 0.2em;
+    color: #333333;
+    display: inline-block;
+    font-style: normal;
+    padding: 0.3em;
+}

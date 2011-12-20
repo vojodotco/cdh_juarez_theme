@@ -138,8 +138,16 @@
             </div>
                 
             <div id="main-wrapper">
+
+                <?php if($content_top) { ?>
+                    <div class="container" id="cdhj-content-top">
+                        <div class="row">
+                            <?php print $content_top ?>
+                        </div>
+                    </div>
+                <?php } ?>
                 
-                <?php if ($messages || $tabs || $title || content_top) { ?>
+                <?php if ($messages || $tabs || $title ) { ?>
                     <div class="container">
                         <?php if ($title) { ?>
                             <div class="row">
@@ -155,12 +163,6 @@
                                     <?php print $messages; ?>  
                                     <div class="tabs"><?php print $tabs; ?></div>
                                 </div>
-                            </div>
-                        <?php } ?>
-                        
-                        <?php if($content_top) { ?>
-                            <div class="row" id="cdhj-content-top">
-                                <?php print $content_top ?>
                             </div>
                         <?php } ?>
                     </div>

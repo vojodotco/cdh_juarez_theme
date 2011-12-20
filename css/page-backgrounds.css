@@ -53,6 +53,10 @@ body {
     text-align: right;
 }
 
+#cdhj-content-top {
+    background-image: url("/sites/all/themes/cdh_juarez/images/cdh/square-black-80.png");
+}
+
 #cdhj-content-bottom {
     background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-black-80.png');
     padding: 2em 0em;
