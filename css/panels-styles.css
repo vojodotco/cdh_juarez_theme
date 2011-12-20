@@ -58,6 +58,8 @@ h2.pane-title {
     margin-bottom: 1em;
 }
 
+/** related to the group homepage feature content **/
+
 #cdhj-content-bottom h2 {
     color: #ffffff;
     padding-left: 0em;
@@ -81,6 +83,8 @@ h2.pane-title {
 #cdhj-content-bottom .more-link {
     display: none;
 }
+
+/** related to the story count blong on the Juarez group page **/
 
 #mini-panel-cdhj_story_count .pane-content {
     color: #FFFFFF;
