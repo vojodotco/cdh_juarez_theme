@@ -46,7 +46,7 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
     
     </div>
 
-    <input type="hidden" name="og_groups[10014]" id="edit-og-groups-10014" value="10014" class="form-checkbox og-audience">
+    <input type="hidden" name="og_groups[10054]" id="edit-og-groups-10054" value="10054" class="form-checkbox og-audience">
 
     <div class="row">
         <div class="twelvecol last cdhj-buttons">
