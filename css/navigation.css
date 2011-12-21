@@ -38,6 +38,14 @@ li a.active {
 .block-menu {
 }
 
+/*
+ * "Menu block" blocks. See http://drupal.org/project/menu_block
+ */
+.block-menu_block {
+}
+
+/** The Juarez nav menu **/
+
 #block-menu-menu-cdhjuarez ul {
     height: 2.75em;
     margin-left: 0em;
@@ -68,10 +76,4 @@ li a.active {
 #block-menu-menu-cdhjuarez ul li a:hover {
 	background-color: #ffffff;
 	color: #111111;
-}
-
-/*
- * "Menu block" blocks. See http://drupal.org/project/menu_block
- */
-.block-menu_block {
 }
