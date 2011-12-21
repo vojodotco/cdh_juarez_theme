@@ -13,21 +13,21 @@
 <?php endif; ?>
 
 <div class="cdhj-story-list">
-    <?php $row_num = 1; ?>
+    <?php $item_num = 1; ?>
     <?php foreach ($rows as $id => $row): ?>
     <?php 
               $extra_css = "fourcol";
-              if($row_num%3==0) {
+              if($item_num%3==0) {
                 $extra_css.= " last";
               }
-              if($row_num%3==1) print '<div class="row">';
+              if($item_num%3==1) print '<div class="row">';
           ?>
           <div class="<?php print $classes[$id]; ?>  <?php print $extra_css ?>">
     <?php       print $row; ?>
           </div>
     <?php
-              if($row_num%3==0) print '</div>';
-              $row_num = $row_num + 1;
+              if($item_num%3==0) print '</div>';
+              $item_num = $item_num + 1;
     ?>
     <?php endforeach; ?>
 </div>
