@@ -197,9 +197,24 @@
                         <?php print $footer_right ?>
                     </div>
                 </div>
+                <?php if($footer) { ?>
+                    <div class="row">
+                        <div class="twelvecol last">
+                            <?php print $footer; ?>
+                        </div>
+                    </div>
+                <?php } ?>
             </div>
 
-          <?php print $page_closure; ?>
+            <?php if($page_closure) { ?>
+            <div class="container">
+                <div class="row">
+                    <div class="twelvecol last">
+                        <?php print $page_closure; ?>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
 
         </div>
 
