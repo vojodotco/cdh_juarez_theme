@@ -16,40 +16,40 @@ body {
     color: #333333;    
 }
 
-#page-wrapper {
+#cdhj-page-wrapper {
 }
 
-#page {
+#cdhj-page {
 }
 
-#header {
+#cdhj-header {
     padding-top: 1em;
     padding-bottom: 1em;
 	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
 }
 
-#header .section {
+#cdhj-header .section {
 }
 
-#main-wrapper {
+#cdhj-main-wrapper {
     background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-white-80.png');	
 }
 
-#main {
+#cdhj-main {
     padding-top: 0em;
     padding-bottom: 2em;
 }
 
-#footer {
+#cdhj-footer {
 	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
     padding-top: 2em;
     padding-bottom: 10em;
 }
 
-#footer .section {
+#cdhj-footer .section {
 }
 
-#footer .region-footer-right {
+#cdhj-footer .region-footer-right {
     text-align: right;
 }
 

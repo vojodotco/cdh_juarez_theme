@@ -117,11 +117,11 @@
 </head>
 <body class="<?php print $classes; ?>">
 
-    <div id="page-wrapper">
+    <div id="cdhj-page-wrapper">
         
-        <div id="page">
+        <div id="cdhj-page">
         
-            <div id="header" class="container">
+            <div id="cdhj-header" class="container">
                 <div class="row">
                     <div class="twelvecol last">
                         <?php print $header ?>
@@ -137,10 +137,10 @@
                 <?php } ?>
             </div>
                 
-            <div id="main-wrapper">
+            <div id="cdhj-main-wrapper">
 
                 <?php if($content_top) { ?>
-                    <div class="container" id="cdhj-content-top">
+                    <div id="cdhj-content-top" class="container">
                         <div class="row">
                             <?php print $content_top ?>
                         </div>
@@ -168,12 +168,12 @@
                     </div>
                 <?php } ?>
             
-                <div id="main" class="container">
+                <div id="cdhj-main" class="container">
                     <?php print $content ?>
                 </div>
             
                 <?php if ($content_bottom) { ?>
-                    <div class="container" id="cdhj-content-bottom">
+                    <div id="cdhj-content-bottom" class="container">
                         <div class="row">
                             <?php print $content_bottom ?>
                         </div>
@@ -182,7 +182,7 @@
 
             </div>
         
-            <div id="footer" class="container">
+            <div id="cdhj-footer" class="container">
                 <div class="row">
                     <div class="fourcol">
                         <?php print $footer_left ?>

@@ -16,10 +16,10 @@ body {
   padding: 0;
 }
 
-#page-wrapper {
+#cdhj-page-wrapper {
 }
 
-#page {
+#cdhj-page {
 }
 
 /*
@@ -52,10 +52,10 @@ body {
 /*
  * Header
  */
-#header {
+#cdhj-header {
 }
 
-#header .section {
+#cdhj-header .section {
 }
 
 #logo /* Wrapping link for logo */ {
@@ -98,19 +98,19 @@ div#site-name /* The name of the website */ {
 /*
  * Main (container for everything else)
  */
-#main-wrapper {
+#cdhj-main-wrapper {
 }
 
-#main {
+#cdhj-main {
 }
 
 /*
  * Content
  */
-#content {
+#cdhj-content {
 }
 
-#content .section {
+#cdhj-content .section {
 }
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
@@ -248,13 +248,13 @@ ul.links li {
 /*
  * Footer
  */
-#footer {
+#cdhj-footer {
 }
 
-#footer .section {
+#cdhj-footer .section {
 }
 
-#footer-message /* Wrapper for the footer message from Drupal's "Site information"
+#cdhj-footer-message /* Wrapper for the footer message from Drupal's "Site information"
                    and for any blocks placed in the footer region */ {
 }
 
