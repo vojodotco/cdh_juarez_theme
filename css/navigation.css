@@ -48,15 +48,17 @@ li a.active {
 
 #block-menu-menu-cdhjuarez ul {
     height: 2.75em;
-    margin-left: 0em;
+    margin: 0em;
+    margin-top: 0.5em;
     padding-left: 0em;
 }
 
 #block-menu-menu-cdhjuarez ul li {
     display: inline-block;
     float: left;
-    margin-right: 5px;
+    margin-right: 0.5em;
     width: 180px;    
+    margin-bottom: 0.5em;
 }
 
 #block-menu-menu-cdhjuarez ul li a {

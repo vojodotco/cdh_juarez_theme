@@ -123,9 +123,11 @@
         
             <div id="cdhj-header" class="container">
                 <div class="row">
-                    <div class="twelvecol last">
+                    <div class="eightcol">
+                        <a href="http://juarez.cronicasdeheroes.mx/"><img src="/<?php print drupal_get_path('theme','cdh_juarez');?>/images/cdh/logo.png"></a>                        
+                    </div>
+                    <div class="fourcol last">
                         <?php print $header ?>
-                        <a href="http://juarez.cronicasdeheroes.mx/"><img src="/sites/all/themes/cdh_juarez/images/cdh/logo.png"></a>
                     </div>
                 </div>
                 <?php if ($navigation) { ?>
