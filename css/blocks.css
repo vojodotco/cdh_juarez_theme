@@ -107,6 +107,8 @@
 
 .block-locale ul {
     list-style-type: none;
+    margin: 0em;
+    padding: 0em;
 }
 .block-locale ul li {
     display: inline-block;
