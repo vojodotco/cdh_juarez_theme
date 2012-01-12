@@ -105,6 +105,13 @@
  * @see zen_preprocess()
  * @see zen_process()
  */
+
+// HACK: permissons
+// force the admin to get the group-admin role on every group page, not just the ones where og_user_roles can figure out the context
+$group_id = 10014;
+$group_node = node_load($group_id);
+og_user_roles_grant_roles($user, $group_node);
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
