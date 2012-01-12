@@ -183,6 +183,7 @@ form tbody th {
 
 .cdhj-submit-form .teaser-button-wrapper, 
 .cdhj-submit-form .body-field-wrapper > p, 
+.cdhj-submit-form .cdhj-buttons > div.form-item, /** hide audience checkboxes, because we're setting it automitcally with a hidden field **/
 .cdhj-submit-form .cdhj-buttons .collapsible,
 .cdhj-submit-form .body-field-wrapper .tips {
     display: none;

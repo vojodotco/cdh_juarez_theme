@@ -1,8 +1,8 @@
-$(initVojoCdhAutocomplete);
+$(vojoCdhJuarez_InitLocationAutocomplete);
 
 var _cdhAddressToLoc = {};
 
-function initVojoCdhAutocomplete() {
+function vojoCdhJuarez_InitLocationAutocomplete() {
     var boundsCorners = {
         'sw': {'lon':-106.618195,'lat':31.500117},
         'ne': {'lon':-106.230926,'lat':31.834399}
@@ -11,7 +11,7 @@ function initVojoCdhAutocomplete() {
             new google.maps.LatLng(boundsCorners.sw.lat, boundsCorners.sw.lon),
             new google.maps.LatLng(boundsCorners.ne.lat, boundsCorners.ne.lon)
             );
-    $('#edit-fake-location').autocomplete({
+    $('#edit-locations-0-name').autocomplete({
         'minLength': 3,
         /**
          * Hit google to geocode the address the user inputs

@@ -5,8 +5,6 @@
  *   http://drupal.org/node/601646
  **/
 
-//dsm($form);
-
 // remove some other buttons
 unset($form['buttons']['preview']);
 unset($form['locations']);
@@ -36,9 +34,17 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
 
         <div class="form-item" id="edit-fake-location-wrapper">
             <label for="edit-fake-location">Location:</label>
-            <input type="text" maxlength="128" name="fake-location" id="edit-fake-location" size="60" value="" class="form-text" />
+            <input type="text" maxlength="128" name="locations[0][name]" id="edit-locations-0-name" 
+                value="<?php print $form['#parameters'][2]->locations[0]['name'] ?>" 
+                size="60" class="form-text" />
+            <input id="edit-locations-0-locpick-user-latitude" type="hidden" 
+                value="<?php print $form['#parameters'][2]->locations[0]['latitude'] ?>" 
+                name="locations[0][locpick][user_latitude]">
+            <input id="edit-locations-0-locpick-user-longitude" type="hidden" 
+                value="<?php print $form['#parameters'][2]->locations[0]['longitude'] ?>" 
+                name="locations[0][locpick][user_longitude]">            
         </div>
-        <?php print drupal_render($form['locations']); ?>
+        
 
         <?php print drupal_render($form['language']); ?>
     
