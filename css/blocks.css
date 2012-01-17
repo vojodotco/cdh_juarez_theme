@@ -130,8 +130,11 @@
 }
 
 #cdhj-footer .block {
-    margin-bottom: 0em;
-    margin-top: 0.5em;
+    margin: 0em;
+}
+
+#cdhj-footer .views-exposed-widget {
+    padding: 0em;
 }
 
 #block-vojo-license img {

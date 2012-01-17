@@ -101,9 +101,13 @@
   display: none;
 }
 
+#views-exposed-form-cdhj-og-search-cdhj-search-page {
+    float: right;
+}
 
-.cdhj-submit-form .cdhj-buttons input[type="submit"],
-#search-block-form input[type="submit"] {
+#edit-submit-cdhj-og-search , /* search button on exposed in-group search view */
+.cdhj-submit-form .cdhj-buttons input[type="submit"] /* submit new story form */
+{
     border: 0.12em solid #9A1E4C;
     background: #EEBCCE;
     background: -webkit-gradient(linear, left top, left bottom, from(#EEBCCE), to(#9A1E4C));
