@@ -195,7 +195,7 @@ og_user_roles_grant_roles($user, $group_node);
                 <div class="row">
                     <div class="fourcol">
                         <?php print $footer_left ?>
-                        <strong>Crónicas de Héroes</strong> &rarr; <a href="http://civic.mit.edu">Center for Future Civic Media</a>
+                        <strong><a href="http://juarez.cronicasdeheroes.mx/">Juárez</a></strong> &rarr; <a href="http://cronicasdeheroes.mx">Crónicas de Héroes</a>
                         <br />
                         info&#64;cronicasdeheroes.mx
                     </div>
