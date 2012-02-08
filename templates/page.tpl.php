@@ -198,6 +198,12 @@ og_user_roles_grant_roles($user, $group_node);
                         <strong><a href="http://juarez.cronicasdeheroes.mx/">Juárez</a></strong> &rarr; <a href="http://cronicasdeheroes.mx">Crónicas de Héroes</a>
                         <br />
                         info&#64;cronicasdeheroes.mx
+                        <br />
+                        <?php if($logged_in) { ?>
+                            <a href="<?php print drupal_get_path_alias('/logout'); ?>">logout</a>
+                        <?php } else { ?>
+                            <a href="<?php print drupal_get_path_alias('/user/login'); ?>">login</a>
+                        <?php } ?>
                     </div>
                     <div class="fourcol">
                         <?php print $footer_center ?>
