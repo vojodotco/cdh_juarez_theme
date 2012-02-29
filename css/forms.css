@@ -17,6 +17,7 @@
 }
 
 #field-image-items th,
+#node-form legend, /* the recaptcha label */
 .form-item > label /* The label for a form element */ {
   display: block;
   font-weight: normal;
