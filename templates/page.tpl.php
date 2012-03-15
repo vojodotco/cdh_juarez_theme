@@ -198,8 +198,6 @@ og_user_roles_grant_roles($user, $group_node);
                         <?php print $footer_left ?>
                         <strong><a href="http://juarez.cronicasdeheroes.mx/">Juárez</a></strong> &rarr; <a href="http://cronicasdeheroes.mx">Crónicas de Héroes</a>
                         <br />
-                        info&#64;cronicasdeheroes.mx
-                        <br />
                         <?php if($logged_in) { ?>
                             <a href="<?php print drupal_get_path_alias('/logout'); ?>">logout</a>
                         <?php } else { ?>
@@ -207,6 +205,9 @@ og_user_roles_grant_roles($user, $group_node);
                         <?php } ?>
                     </div>
                     <div class="fourcol">
+                        <div id="cdhj-mailto-link">
+                        <a href="mailto:info@cronicasdeheroes.mx"><img src="/<?php print drupal_get_path('theme','cdh_juarez');?>/images/cdh/email-badge.png"></a>                        
+                        </div>
                         <?php print $footer_center ?>
                     </div>
                     <div class="fourcol last">
