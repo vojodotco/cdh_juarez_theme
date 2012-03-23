@@ -106,3 +106,24 @@ h2.pane-title {
     font-style: normal;
     padding: 0em 0.5em;
 }
+
+.cdhj-large-button {
+    font-family: "Bernard MT Condensed", "Impact", serif;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEBCCE), to(#9A1E4C));
+    background-image: -moz-linear-gradient(top, #EEBCCE, #9A1E4C);
+    border: 2px solid #9A1E4C;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.cdhj-large-button a {
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    text-shadow: black 0px 1px 0px;
+    text-decoration: none;
+}
