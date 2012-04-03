@@ -22,7 +22,7 @@ h2.pane-title {
     -moz-border-radius:8px; 
     border-radius:8px;
 	margin-top: 1em;	
-    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-black-10.png');
+    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/square-black-10.png');
     /* border: 1px solid #9a1e4c; */
 }
 .cdhj-sidebar-panel ul {
@@ -99,7 +99,7 @@ h2.pane-title {
 }
     
 #mini-panel-cdhj_story_count .pane-content em {
-    background-image: url("/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png");
+    background-image: url("/sites/vojo.co/themes/cdh_juarez/images/cdh/square-peach-80.png");
     border-radius: 0.2em;
     color: #333333;
     display: inline-block;

@@ -11,7 +11,7 @@
 
 
 body {
-    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/background-stripes-peach-80.png');
+    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/background-stripes-peach-80.png');
     font-family: "Times", serif;
     color: #333333;    
 }
@@ -25,7 +25,7 @@ body {
 #cdhj-header {
     padding-top: 1em;
     padding-bottom: 1em;
-    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/persona.png');
+    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/persona.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     overflow: visible;
@@ -35,7 +35,7 @@ body {
 }
 
 #cdhj-main-wrapper {
-    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/background-stripes-white-80.jpg');
+    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/background-stripes-white-80.jpg');
 }
 
 #cdhj-main {
@@ -56,10 +56,10 @@ body {
 }
 
 #cdhj-content-top {
-    background-image: url("/sites/all/themes/cdh_juarez/images/cdh/square-black-80.png");
+    background-image: url("/sites/vojo.co/themes/cdh_juarez/images/cdh/square-black-80.png");
 }
 
 #cdhj-content-bottom {
-    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-black-80.png');
+    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/square-black-80.png');
     padding: 2em 0em;
 }

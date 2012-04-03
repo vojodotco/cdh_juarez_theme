@@ -18,7 +18,7 @@ The base Zen theme is designed to be easily extended by its sub-themes. You
 shouldn't modify any of the CSS or PHP files in the zen/ folder; but instead you
 should create a sub-theme of zen which is located in a folder outside of the
 root zen/ folder. The examples below assume zen and your sub-theme will be
-installed in sites/all/themes/, but any valid theme directory is acceptable
+installed in sites/vojo.co/themes/, but any valid theme directory is acceptable
 (read the sites/default/default.settings.php for more info.)
 
   Why? To learn why you shouldn't modify any of the files in the zen/ folder,
@@ -29,8 +29,8 @@ installed in sites/all/themes/, but any valid theme directory is acceptable
     alphabetic character and can only contain lowercase letters, numbers and
     underscores.
 
-    For example, copy the sites/all/themes/zen/STARTERKIT folder and rename it
-    as sites/all/themes/foo.
+    For example, copy the sites/vojo.co/themes/zen/STARTERKIT folder and rename it
+    as sites/vojo.co/themes/foo.
 
       Why? Each theme should reside in its own folder. To make it easier to
       upgrade Zen, sub-themes should reside in a folder separate from their base

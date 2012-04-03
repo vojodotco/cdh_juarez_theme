@@ -17,7 +17,7 @@ li a.active {
  * Navigation bar
  */
 #navigation {
-	background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-peach-80.png');
+	background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/square-peach-80.png');
 }
 
 .region-navigation {
@@ -65,7 +65,7 @@ li a.active {
     border: #333333 0.138em solid;
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
-    background-image: url('/sites/all/themes/cdh_juarez/images/cdh/square-white-80.png');
+    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/square-white-80.png');
     text-align: right;
     padding: 0.3em 0.3em 0.3em 0em; 
     text-decoration: none;
