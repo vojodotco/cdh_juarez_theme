@@ -34,7 +34,7 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
         </div>
 
         <div class="form-item" id="edit-fake-location-wrapper">
-            <label for="edit-fake-location">Location:</label>
+            <label for="edit-fake-location"><?php print t('Location')?>:</label>
             <input type="text" maxlength="128" name="locations[0][name]" id="edit-locations-0-name" 
                 value="<?php print $form['#parameters'][2]->locations[0]['name'] ?>" 
                 size="60" class="form-text" />
