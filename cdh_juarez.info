@@ -84,8 +84,7 @@ regions[page_closure]   = Page closure
   ; Avoids core bug where a custom blocks that is provided a default region is
   ; disabled if this region is not present in all other enabled themes. 
   ; See https://drupal.org/node/1172560#comment-4873004 
-regions[sidebar]      = Page closure
-regions[navigation]   = Page closure
+regions[sidebar]      = Sidebar
 regions[right]        = Right
 
   ; Various page elements output by the theme can be toggled on and off. The
