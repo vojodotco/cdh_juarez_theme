@@ -132,7 +132,7 @@ og_user_roles_grant_roles($user, $group_node);
             <div id="cdhj-header" class="container">
                 <div class="row">
                     <div class="eightcol">
-                        <a href="<?php print drupal_get_path_alias('node/'.$group_id,i18n_get_lang()); ?>"><img src="/<?php print drupal_get_path('theme','cdh_juarez');?>/images/cdh/logo.png"></a>                        
+                        <a href="/<?php print drupal_get_path_alias('node/'.$group_id,i18n_get_lang()); ?>"><img src="/<?php print drupal_get_path('theme','cdh_juarez');?>/images/cdh/logo.png"></a>                        
                     </div>
                     <div class="fourcol last">
                         <?php print $header ?>
