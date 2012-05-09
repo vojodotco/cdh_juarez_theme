@@ -7,6 +7,7 @@
 
 // remove some other buttons
 unset($form['buttons']['preview']);
+unset($form['attachments']);
 unset($form['group_voipnode_settings']);
 
 // include the libraries for geocoding from the single address text input field
