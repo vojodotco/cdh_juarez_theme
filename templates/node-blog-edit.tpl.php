@@ -24,17 +24,19 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
         <?php print drupal_render($form['title']); ?>
         
         <?php print drupal_render($form['body_field']); ?>
+
+        <div class="form-item">
+            <?php print drupal_render($form['field_image']); ?>
+        </div>
         
     </div>
     
     <div class="sixcol last">
     
         <?php print drupal_render($form['language']); ?>
+        
+        <?php print drupal_render($form['field_map']); ?>
     
-        <div class="form-item">
-            <?php print drupal_render($form['field_image']); ?>
-        </div>
-
         <?php print drupal_render($form['taxonomy']); ?>
     
     </div>
