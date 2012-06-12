@@ -7,8 +7,6 @@
 
 // remove some other buttons
 unset($form['buttons']['preview']);
-unset($form['attachments']);
-unset($form['group_voipnode_settings']);
 
 // include the libraries for geocoding from the single address text input field
 drupal_set_html_head('<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>');
@@ -28,6 +26,8 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
         <div class="form-item">
             <?php print drupal_render($form['field_image']); ?>
         </div>
+
+        <?php print drupal_render($form['taxonomy']); ?>
         
     </div>
     
@@ -36,8 +36,8 @@ drupal_add_js(drupal_get_path('theme', 'cdh_juarez') . '/js/location-autocomplet
         <?php print drupal_render($form['language']); ?>
         
         <?php print drupal_render($form['field_map']); ?>
-    
-        <?php print drupal_render($form['taxonomy']); ?>
+
+        <?php print drupal_render($form['attachments']); ?>
     
     </div>
 
