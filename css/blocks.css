@@ -98,29 +98,6 @@
 
 /* Location switcher block */
 
-.block-locale {
-}
-
-.block-locale h2 {
-    display: none;
-}
-
-.block-locale ul {
-    list-style-type: none;
-    margin: 0em;
-    padding: 0em;
-}
-.block-locale ul li {
-    display: inline-block;
-    font-size: 1.0em;
-    margin: 0.25em;
-    padding: 0.5em;
-    -webkit-border-radius: 0.25em;
-    -moz-border-radius: 0.25em;
-    border: #333 0.138em solid;
-    background-image: url('/sites/vojo.co/themes/cdh_juarez/images/cdh/square-white-80.png');
-}
-
 #block-panels_mini-cdhj_story_count {
     margin: 0em;
 }
